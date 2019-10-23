@@ -31,14 +31,8 @@ while perch != percm:
     percm = math.ceil(percm)
     percm = percm / 1000
     percm = math.ceil(percm)
-    if percm > perch:
-        diff = diff - 1
-    elif perch == percm:
-        break
-    else:
-        diff = diff + 1
-if diff < 0:
-    diff = 42
+    diff = diff + 1
+
 print("Стрелки сойдутся через " + str(diff) + " минут.")
 
 input()

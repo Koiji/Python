@@ -1,8 +1,17 @@
 import math
-n = input('Enter number: ')
+print("Задание 87 ")
+n = input("Введите число n ")
 n = int(n)
+m = input("Введите число m ")
+m = int(m)
+print("n= ",n)
+print("m= ",m)
 s = 0
-while n > 0:
-    s = s + n % 10
-    n = n // 10
-print(s)
+i = 1
+for i in range(m):
+    s = s + (n%10)
+    n = n//10
+    if(n==0):
+        break
+print("Cумма = ",s )
+
