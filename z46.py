@@ -1,5 +1,3 @@
-import math
-
 a = input ("input a: ")
 b = input ("input b: ")
 
