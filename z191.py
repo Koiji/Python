@@ -2,7 +2,7 @@ import random
 
 n = 10
 
-q = 0
+a = 0
 i = 1
 k = 0
 
