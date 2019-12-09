@@ -6,7 +6,6 @@ n = len(ss)
 a = False
 b = False
 c = False
-d = False
 k = 0
 i = 0
 j = 0
